@@ -7,5 +7,8 @@ EfficientFormer与EfficientFormerV2是基于mmseg==0.19.0，mmcv-full==1.3.17建
 
 Train
 -------
+python ./tools/train.py --work-dir ./work/M2-3 ./configs\sem_fpn\repvit_fpn_dsaspp_m2_3.py
+
 Test
 -------
+python ./tools/test.py ./configs/sem_fpn/repvit_fpn_daspp_m2_3.py ./work/M2-3/.pth --eval mIoU mFscore --show-dir ./Prediction/RepViT/Image
