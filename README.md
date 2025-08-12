@@ -1,6 +1,6 @@
 BMSegNet
 ===
-The data is publicly available on quark: Link: [https://pan.quark.cn/s/776feb9e1556](https://pan.quark.cn/s/776feb9e1556) Extract code: U9nv<br>
+The data is publicly available on quark: Link: [https://pan.quark.cn/s/776feb9e1556](https://pan.quark.cn/s/776feb9e1556) Extract code: raqf<br>
 In the data, 0-49 corresponds to BMHS, 50-99 corresponds to BMTO, and 100-149 corresponds to BMS.
 The model is built based on mmsegmentation. The python version used is 3.8. RepViT, ResNet, Swin, PCPVT, MobileNetV2 are built based on mmseg==0.30.0, mmcv-full==1.7.1;<br>
 EfficientFormer and EfficientFormerV2 are built on mmseg==0.19.0, mmcv-full==1.3.17;<br>
